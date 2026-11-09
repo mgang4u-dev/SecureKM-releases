@@ -47,7 +47,7 @@ Host prod-web
 
 ## 백업과 복원
 
-- 금고를 닫을 때 바뀐 내용이 있으면 `~/Library/Application Support/SecureKM/Backups`에 백업해요.
+- 금고를 닫을 때 바뀐 내용이 있으면 `~/Library/Application Support/SecureKM/Backups`에 백업해요. 금고는 바로 닫히고, 백업은 몇 초 동안 뒤에서 만들어요.
 - 백업 파일(`SecureKM-backup-날짜.dmg`)은 **금고와 같은 비밀번호로 암호화된 DMG**예요.
 - 설정에서 추가 백업 경로(USB, NAS, iCloud Drive 등)를 지정할 수 있어요. 연결이 끊긴 동안 밀린 백업은 다시 연결되면 자동으로 복사돼요.
 
